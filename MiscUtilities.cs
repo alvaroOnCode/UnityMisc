@@ -12,7 +12,6 @@ public class MiscUtilities : MonoBehaviour {
 		Vector3 scale = this.transform.localScale;
 
 		for (float currentLerpTime = 0.0f; currentLerpTime < i_time; currentLerpTime += Time.deltaTime) {
-
 			float t = currentLerpTime / i_time;
 			t = t * t * t * (t * (6f * t - 15f) + 10f);
 
