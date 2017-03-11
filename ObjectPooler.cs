@@ -25,7 +25,7 @@ using System.Collections.Generic;
 public class ObjectPooler : MonoBehaviour {
 
 	//##################################################
-	//	PUBLIC REFERENCES
+	//	PUBLIC FIELDS
 	//##################################################
 	public List <GameObject> pooledObjects;
 	public GameObject objectToPool;
@@ -53,11 +53,6 @@ public class ObjectPooler : MonoBehaviour {
 			obj.SetActive (false); 
 			pooledObjects.Add (obj);
 		}
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 
 
