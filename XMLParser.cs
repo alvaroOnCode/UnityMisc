@@ -12,14 +12,14 @@ using System.Xml;
 public class XMLParser : MonoBehaviour  {
 
 	//##################################################
-	//	PUBLIC REFERENCES
+	//	PUBLIC FIELDS
 	//##################################################
 	[HideInInspector]
 	public List<GameText> gameTexts;
 
 
 	//##################################################
-	//	PRIVATE REFERENCES
+	//	PRIVATE FIELDS
 	//##################################################
 	private XmlDocument _xmlDoc;
 
